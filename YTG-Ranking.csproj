@@ -1,0 +1,23 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net9.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <UserSecretsId>aspnet-YTG_Ranking-2506a67c-4a5e-40c8-b191-bfecb59d28ac</UserSecretsId>
+        <RootNamespace>YTG_Ranking</RootNamespace>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <None Update="app.db" CopyToOutputDirectory="PreserveNewest" ExcludeFromSingleFile="true"/>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore" Version="9.0.7"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="9.0.7"/>
+        <PackageReference Include="Microsoft.AspNetCore.Identity.UI" Version="9.0.7"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Sqlite" Version="9.0.7"/>
+        <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="9.0.7"/>
+    </ItemGroup>
+
+</Project>
